@@ -167,7 +167,7 @@ li.menu_list:hover .front {
 		min-height: 600px;
 	}
 	.intro-content h1 {
-		font-size: 4.6rem;
+		font-size: 2.6rem;
 		margin-bottom: .6rem;
 	}
 	.intro-content h5 {
@@ -184,14 +184,12 @@ li.menu_list:hover .front {
 	.intro-content .intro-position span::before, .intro-content .intro-position span::after {
 		display: none !important;
 	}
-	.intro-social {
-		font-size: 2.4rem;
-	}
 }
 
 
 #about {
 	background: #FFFFFF;
+	padding-left: 0px;
 	padding-top: 12rem;
 	padding-bottom: 5rem;
 }
