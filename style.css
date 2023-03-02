@@ -1,22 +1,32 @@
+html {
+	scroll-behavior: smooth;
+}
 body {
 	background: #151515;
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
 }
-.a{
+#a{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://www.faena.com/sites/default/files/styles/hero_desktop/public/2021-08/greg-rakozy-38802_Constellation.jpg?h=0bf217e9&itok=azk5Sv9J);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: auto;
     min-height: 800px;
     display: table;
     position: relative;
     text-align: center;
+    margin-top: -190px;
+    z-index:0;
+    
+}
+.n{
+    display: inline-flexbox;
+	position: sticky;
+	top: 0px;
+    z-index: 1;
 }
 * {
     margin: 0;
@@ -26,13 +36,13 @@ body {
 ul .menu {
     box-sizing: border-box;
     display: inline-block;
-    list-style-type: none;
+    list-style-type: none;	
 }
 li.menu_list {
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Poppins', sans-serif;
-    height: 85px;
-    width: 85px;
+    height: 65px;
+    width: 65px;
     position: relative;
 }
 li.menu_list .front,
@@ -40,26 +50,28 @@ a.side {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 86px;
+    height: 65px;
     width: 100%;
-    padding: 30px;
+    padding: 25px;
     position: absolute;
     top: 0;
     right: 0;
     text-decoration: none;
     text-transform: uppercase;
-    transition: all .5s ease-out;
+    transition: all .3s ease-out;
     cursor: pointer;
 }
 li.menu_list .front {
     background-color: #34465d;
     color: #FFFC00;
     transform-origin: 0 0;
+    font-size: 18px;
 }
 a.side {
     background-color: #FFFC00;
+    margin-top: 0;
     color: #34465d;
-    transform-origin: 0 0 85px;
+    transform-origin: 0 0 65px;
     transform: rotateY(-90deg);
 }
 li.menu_list:hover a.side {
@@ -71,7 +83,8 @@ li.menu_list:hover .front {
 .intro-content{
     vertical-align: middle;
 	text-align: center;
-    padding-top: 40px;
+    padding-top: 200px;
+
 }
 .intro-content h5 {
 	color: #cc005f;
@@ -191,7 +204,7 @@ li.menu_list:hover .front {
 	background: #FFFFFF;
 	padding-left: 0px;
 	padding-top: 12rem;
-	padding-bottom: 5rem;
+	padding-bottom: 5rem;  
 }
 #about .section-intro {
 	margin-bottom: 3rem;	
