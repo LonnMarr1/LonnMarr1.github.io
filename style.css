@@ -340,24 +340,24 @@ li.menu_list:hover .front {
 		text-align: center;
 	}
 }
-#projects {
+#portfolio {
 	background: #000;
 	padding-top: 5rem;
 	padding-bottom: 12rem;
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
 }
-#projects h5{
+#portfolio h5{
 	margin-top: -50px;
 	color: #FF0077;
 	font-family: 'Poppins', sans-serif;
 }
-#projects h2{
+#portfolio h2{
 	margin-top: 20px;
 	color: #fff;
 	font-family: 'Dancing Script', cursive;
 }
-#projects h1{
+#portfolio h1{
 	color: #fff;
 	margin-top: 25px;
 	font-size: 25px;
