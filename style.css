@@ -35,8 +35,8 @@ body {
 }
 ul .menu {
     box-sizing: border-box;
-    display: inline-block;
-    list-style-type: none;	
+    display: none;
+    list-style-type: none;
 }
 li.menu_list {
     font-size: 12px;
@@ -204,7 +204,7 @@ li.menu_list:hover .front {
 	background: #FFFFFF;
 	padding-left: 0px;
 	padding-top: 12rem;
-	padding-bottom: 5rem;  
+	padding-bottom: 5rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;	
@@ -300,18 +300,31 @@ li.menu_list:hover .front {
 	.intro-info {
 		margin-right: 0;
 		margin-left: 0;
+		padding-bottom: 40px;
+	}
+
+	.intro-info img {
+		margin-top:-10px;
+	}
+	.about-content {
+		margin-top: -1rem;
 	}
 }
 @media only screen and (max-width:768px) {
+
 	.intro-info img {
 		height: 7.8rem;
 		width: 7.8rem;
 	}
 	.intro-info .lead {
 		padding-left: 11rem;
+		padding-bottom: 2rem;
 	}
 	.about-content h5 {
 		text-align: center;
+	}
+	.about-content {
+		margin-top: -5rem;
 	}
 	.about-content .info-list, .about-content .skill-bars {
 		margin-bottom: 4.2rem;
@@ -338,6 +351,12 @@ li.menu_list:hover .front {
 	.intro-info .lead {
 		padding-left: 0;
 		text-align: center;
+	}
+	.about-content {
+		padding-left: 0;
+		text-align: center;
+		font-size:1rem;
+		margin-top: -5rem;
 	}
 }
 #portfolio {
