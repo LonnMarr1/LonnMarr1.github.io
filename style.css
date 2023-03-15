@@ -231,7 +231,7 @@ li.menu_list:hover .front {
 	height: 9rem;
 	width: 9rem;
 	border-radius: 50%;
-	margin: .9rem 0 0 0;
+	margin: rem 0 0 0;
 	float: left;
 }
 .intro-info .lead {
@@ -243,7 +243,7 @@ li.menu_list:hover .front {
 	position: relative;
 	text-align: left;
 	max-width: 500%;
-	margin-top: 3rem;
+	margin-top: 5rem;
 	margin-bottom: 3.6rem;
 	text-align: center;
 	border-top: 2px solid black;
@@ -381,4 +381,9 @@ li.menu_list:hover .front {
 	margin-top: 25px;
 	font-size: 25px;
 	font-family: 'Poppins', sans-serif;
+}
+@media only screen and (min-width:1600px){
+	.intro-info img{
+		margin: -1rem;
+	}
 }
